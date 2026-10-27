@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f1b2d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Notes">
+<title>Notes</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; background: #f3f4f6; color: #16191f;
+         font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  .gate { max-width: 360px; margin: 18vh auto 0; padding: 0 20px; text-align: center; }
+  .gate h1 { font-size: 22px; margin: 0 0 6px; }
+  .gate p { color: #6b7280; margin: 0; }
+  .gate form { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+  .gate input { height: 50px; padding: 0 14px; border-radius: 12px; border: 1px solid #c9ced6;
+                font-size: 17px; background: transparent; color: inherit; }
+  .gate button { height: 48px; border: 0; border-radius: 10px; background: #1f3a5f; color: #fff;
+                 font-size: 16px; font-weight: 600; }
+  .gate .err { color: #d23c3c; min-height: 1.5em; margin-top: 10px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0e1115; color: #e9ecf0; }
+    .gate input { border-color: #3a424d; }
+    .gate button { background: #8db4ec; color: #0e1115; }
+  }
+</style>
+</head>
+<body>
+<div id="app"><p class="gate">…</p></div>
+<script type="module" src="loader.js?v=fd4d5fc6d5"></script>
+</body>
+</html>
